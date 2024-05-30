@@ -1,0 +1,77 @@
+*{
+    background-color:white;;
+}
+.heading{
+
+    /* margin-left: 40vw; */
+    text-align: center;
+    color: rgb(75, 32, 138);
+}
+.container1{
+    display:flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    margin-top: 3rem;
+    /* gap: 5rem; */
+    justify-content:space-evenly;
+}
+.card1 .img{
+    height: 20rem;
+    gap: 3rem;
+    box-shadow: 2px 2px 10px;
+    border-radius: 5px;
+}
+.card2 .img{
+    height: 20rem;
+    gap: 3rem;
+    box-shadow: 2px 2px 10px;
+    border-radius: 5px;
+}
+a{
+    border: 1px solid rgb(41, 125, 193);
+    border-radius: 4px;
+    text-decoration:none;
+    color:black;
+    padding: 2px;
+    justify-self: center;
+    background-color: gray;
+    transition: background-color,color 0.3s ease;
+    text-align: center;
+    /* transition:  0s ease; */
+    height: 2rem;
+    width: 10rem;
+    align-content: center;
+    align-self: center;
+}
+a:hover{
+    background-color:rgb(41, 125, 193);
+    color: white;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.RPS{
+    margin-top: 1rem;
+    width: 100%;
+}
+.CurrCoverter{
+width: 100%;
+margin-top: 1rem;
+}
+
+@media (max-width:600px) {
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .card2 , .card1{
+        margin: 2.8rem;
+    }
+}

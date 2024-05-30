@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container{
+            display: grid;
+            text-align:center;
+            line-height: 100px;
+            grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+            /* or repeat(4,1fr) */
+            grid-gap: 20px;
+            /* same for rows */
+            grid-auto-rows: minmax(100px,auto) ;
+            grid-auto-columns: minmax(100px,auto);
+            row-gap: 50px;
+            column-gap: 50px;
+        }
+        .items{
+            background-color: rgb(40, 184, 210);
+            border: 3px green solid;
+            border-radius: 3px;
+        }
+        #item-1{
+            background-color: rgb(39, 155, 205);
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        #item-2{
+            background-color: darkseagreen;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #item-3{
+            background-color:rgb(177, 82, 208);
+            grid-row-start: 2;
+            grid-row-end:4;
+        }
+        #item-4{
+            background-color: sandybrown;
+            grid-row-start: 4;
+            grid-row-end:6;
+        }
+        #item-5{
+            background-color: palevioletred;
+            grid-row-start: 4;
+            grid-row-end:6;
+        }
+        .container-item-1{
+            display: grid;
+            grid-template-columns: repeat(3,200px);
+            border: 4px green solid;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-item-1" id="item-1">
+        <div class="nested-item">Dabbe me Dabba</div>
+        <div class="nested-item">Dabbe me Dabba</div>
+        <div class="nested-item">Dabbe me Dabba</div>
+    </div>
+        <div class="items" id="item-2">Dabba 2</div>
+        <div class="items" id="item-3">Dabba 3</div>
+        <div class="items" id="item-4">Dabba 4</div>
+        <div class="items" id="item-5">Dabba 5</div>
+    </div>
+</body>
+</html>
+
+<!-- shortcut for creating multiple div sections
+  div.items{Dabba $}*5
+ -->
