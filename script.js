@@ -9,7 +9,7 @@ mode.addEventListener("click",()=>{
 const para = document.createElement("p");
 const cnt = document.querySelector(".cnt");
 cnt.addEventListener("click", () => {
-    para.innerHTML = "follow us by going through icons present at the rightmost";
+    para.innerHTML = "follow me by going through the links, present in the form of icons";
     para.style.fontSize = "2vw";
     para.classList.add("fade-in"); // Add class to trigger transition
     document.querySelector(".content").appendChild(para);
