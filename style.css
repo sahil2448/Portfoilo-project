@@ -19,6 +19,9 @@ html,body{
   font-size: 1.1vw;
 
 }
+.content{
+  margin-top: 0px;
+}
 .skills{
   margin-top: 0;
   margin-bottom: 0;
@@ -67,27 +70,22 @@ color: #fff;
   top: 0;
 }
   .container2 {
+    margin-top: 0px;
     display: flex;
     justify-content: space-evenly;
-    /* padding: 2rem 2rem; */
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
   }
   .handles{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 0;
+    margin-top: 0px;
   }
 
   .img img {
     height: 24rem;
-    margin-top: 2rem;
-    /* border: 1px solid black; */
+    margin-top: 1rem;
     border-radius: 0.5rem;
-    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
-    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 ;  
   }
@@ -142,28 +140,20 @@ a{
   size: 3rem;
 }
 .nav a {
-
   border-radius: 3px;
   transition: color,background-color 1s ease;
   padding: 0.4rem;
-  
 }
- .nav a:hover {
+.nav a:hover {
   background-color: #000000;
   color: white;
   border-radius: 2px;
   /* text-decoration: underline; */
 }
-
-
 button{
-  /* float: left; */
   padding: 8px;
-  /* margin: 15px; */
-  /* margin-left: 5rem; */
   border: 1px solid rgb(64, 159, 253);
   border-radius: 1px;
-  /* background-color: white; */
   transition: color 0.3s ease;
 }
 button:hover{
@@ -175,7 +165,6 @@ button:hover{
   
 }
 h1 , h2{
-  /* color:#9607ac; */
   color:rgb(71, 4, 101);
 }
 p{
@@ -218,10 +207,8 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.1);
   transition: border,max-width 0.5s ease;
-  /* border: 1px solid rgb(116, 113, 113); */
 }
 .skills:hover {
-  /* border: 1px solid black; */
   max-width: 700px;
 }
 
@@ -252,8 +239,6 @@ body {
 }
 
 .progress {
-  /* height: 100%; */
-  /* background-color: #8a0bec; */
   background-color: rgba(104, 50, 184, 0.721);
   line-height: 24px;
   color: white;
