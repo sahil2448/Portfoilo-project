@@ -11,7 +11,7 @@ let body = document.querySelector("body")
 // handle4.style.opacity = 0;
 mode.addEventListener("click",()=>{
 
-    alert("Working upon it...!")
+    alert("work in progress...!")
 
 })
 const para = document.createElement("p");
