@@ -322,7 +322,9 @@ html,body{
   }
   .handles{
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
+    margin-left: 2rem;
   }
   img .img{
     align-self: center;
@@ -366,6 +368,9 @@ html,body{
   .container4{
     margin: 0;
   }
+  .fade-in{
+    text-align: center;
+  }
 }
 @keyframes colorChange {
   0% { color: red; }
@@ -374,7 +379,12 @@ html,body{
 }
 
 .fade-in {
-  color: #000000;
+  color:rgb(187, 239, 255);
+  background-color:rgb(31, 33, 35);
+  padding: 1rem;
+  font-size: 1vw;
+  border-radius: 0.5rem;
+  width: 20rem;
   opacity: 0;
   transition: opacity 2s;
 }
