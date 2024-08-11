@@ -15,6 +15,14 @@
     /* gap: 5rem; */
     justify-content:space-evenly;
 }
+.container2{
+    display:flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    margin-top: 3rem;
+    /* gap: 5rem; */
+    justify-content:space-evenly;
+}
 .card1 .img{
     height: 20rem;
     gap: 3rem;
@@ -81,6 +89,10 @@ margin-top: 1rem;
 .Calculator{
     width: 100%;
 margin-top: 1rem;
+}
+.TodoApp{
+    width: 100%;
+    margin-top: 1rem;
 }
 
 @media (max-width:600px) {
