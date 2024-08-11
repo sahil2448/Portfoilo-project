@@ -66,12 +66,30 @@ width: 100%;
 margin-top: 1rem;
 }
 
+.card3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card3 .video{
+    height: 20rem;
+    width: 20rem;
+    gap: 3rem;
+    box-shadow: 2px 2px 10px;
+    border-radius: 5px;
+}
+.Calculator{
+    width: 100%;
+margin-top: 1rem;
+}
+
 @media (max-width:600px) {
     .container1{
         display: flex;
         flex-direction: column;
+        object-fit: cover;
     }
-    .card2 , .card1{
+    .card2 , .card1,.card3{
         margin: 2.8rem;
     }
 }
